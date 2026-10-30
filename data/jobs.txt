@@ -1,0 +1,11 @@
+# CampusCompute sample job set (repeatable test input)
+# Format: id  arrival  burst  priority     (lower priority number = higher priority)
+# Ties included on purpose:
+#   J5 and J6 arrive at the same time  -> FCFS/RR order them by lower job ID
+#   J2/J5 share priority 1, J4/J6 share priority 2 -> earlier arrival wins
+1   0   6   3
+2   1   4   1
+3   2   8   4
+4   3   5   2
+5   4   2   1
+6   4   3   2

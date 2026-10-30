@@ -1,0 +1,34 @@
+# CampusCompute - files that should not be committed
+
+# Build output (recreated by `make`)
+/build/
+/campuscompute
+*.o
+*.d
+
+# Runtime output (recreated when the program runs)
+/logs/
+*.log
+
+# Submission archives (recreated by `make zip`)
+*.zip
+
+# Core dumps
+core
+core.[0-9]*
+
+# Sanitizer / debug builds
+*.dSYM/
+cc_asan
+cc_tsan
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS clutter
+.DS_Store
+Thumbs.db

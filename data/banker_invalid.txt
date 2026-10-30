@@ -1,0 +1,9 @@
+# Invalid Banker state: P1 holds more of resource A than its declared maximum
+2 2
+1 1
+# Allocation
+1 0
+4 1
+# Maximum
+2 2
+3 2
